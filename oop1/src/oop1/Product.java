@@ -3,50 +3,50 @@ package oop1;
 //PascalCase
 public class Product {
 
-	private String name;
-	private double unitPrice;
-	private double discount;
-	private String imageUrl;
-	private int unitsInStock;
+	private String _name;
+	private double _unitPrice;
+	private double _discount;
+	private String _imageUrl;
+	private int _unitsInStock;
 
 	public String getName() {
-		return name;
+		return _name;
 	}
 
 	public void setName(String name) {
-		this.name = name;
+		_name = name;
 	}
 
 	public double getUnitPrice() {
-		return unitPrice;
+		return _unitPrice;
 	}
 
 	public void setUnitPrice(double unitPrice) {
-		this.unitPrice = unitPrice;
+		_unitPrice = unitPrice;
 	}
 
 	public double getDiscount() {
-		return discount;
+		return _discount;
 	}
 
 	public void setDiscount(double discount) {
-		this.discount = discount;
+		_discount = discount;
 	}
 
 	public String getImageUrl() {
-		return imageUrl;
+		return _imageUrl;
 	}
 
 	public void setImageUrl(String imageUrl) {
-		this.imageUrl = imageUrl;
+		_imageUrl = imageUrl;
 	}
 
 	public int getUnitsInStock() {
-		return unitsInStock;
+		return _unitsInStock;
 	}
 
 	public void setUnitsInStock(int unitsInStock) {
-		this.unitsInStock = unitsInStock;
+		_unitsInStock = unitsInStock;
 	}
 
 }

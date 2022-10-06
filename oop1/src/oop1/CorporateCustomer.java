@@ -1,23 +1,23 @@
 package oop1;
 
 public class CorporateCustomer extends Customer {
-	private String companyName;
-	private String taxNumber;
+	private String _companyName;
+	private String _taxNumber;
 
 	public String getCompanyName() {
-		return companyName;
+		return _companyName;
 	}
 
 	public void setCompanyName(String companyName) {
-		this.companyName = companyName;
+		_companyName = companyName;
 	}
 
 	public String getTaxNumber() {
-		return taxNumber;
+		return _taxNumber;
 	}
 
 	public void setTaxNumber(String taxNumber) {
-		this.taxNumber = taxNumber;
+		_taxNumber = taxNumber;
 	}
 
 }

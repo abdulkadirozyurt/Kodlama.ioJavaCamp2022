@@ -2,32 +2,32 @@ package oop1;
 
 public class Customer {
 
-	private int id;
-	private String customerNumber;
-	private String phone;
+	private int _id;
+	private String _customerNumber;
+	private String _phone;
 
 	public int getId() {
-		return id;
+		return _id;
 	}
 
 	public void setId(int id) {
-		this.id = id;
+		_id = id;
 	}
 
 	public String getCustomerNumber() {
-		return customerNumber;
+		return _customerNumber;
 	}
 
 	public void setCustomerNumber(String customerNumber) {
-		this.customerNumber = customerNumber;
+		_customerNumber = customerNumber;
 	}
 
 	public String getPhone() {
-		return phone;
+		return _phone;
 	}
 
 	public void setPhone(String phone) {
-		this.phone = phone;
+		_phone = phone;
 	}
 
 }

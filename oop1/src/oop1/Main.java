@@ -2,6 +2,7 @@ package oop1;
 
 public class Main {
 
+	
 	public static void main(String[] args) {
 
 		Product product1 = new Product();
@@ -45,15 +46,14 @@ public class Main {
 		corporateCustomer.setCompanyName("Ozyurt Inc.");
 		corporateCustomer.setCustomerNumber("1234567");
 		corporateCustomer.setTaxNumber("213248678973");
-		
-		
-		Customer[] customers = {individualCustomer,corporateCustomer};
-		
+
+		Customer[] customers = { individualCustomer, corporateCustomer };
+
 		for (Customer customer : customers) {
 			System.out.println(customer.getId());
-			
+
 		}
-		
+
 	}
 
 }

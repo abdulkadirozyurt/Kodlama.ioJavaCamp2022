@@ -2,23 +2,23 @@ package oop1;
 
 public class IndividualCustomer extends Customer {
 
-	private String firstName;
-	private String lastName;
+	private String _firstName;
+	private String _lastName;
 
 	public String getFirstName() {
-		return firstName;
+		return _firstName;
 	}
 
 	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+		_firstName = firstName;
 	}
 
 	public String getLastName() {
-		return lastName;
+		return _lastName;
 	}
 
 	public void setLastName(String lastName) {
-		this.lastName = lastName;
+		_lastName = lastName;
 	}
 
 }
